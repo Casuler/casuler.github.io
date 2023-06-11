@@ -10,11 +10,13 @@ categories:
 tag:
   - TypeScript
 ---
+
+TypeScript学习笔记
+<!-- more -->
+
 # TypeScript 学习笔记
 
 TypeScript 的类型校验是给程序员看的，在编译后不会存在TS代码。
-
-<!-- more -->
 
 ## 类型注解
 

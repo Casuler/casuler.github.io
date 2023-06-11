@@ -20,7 +20,6 @@ tags:
 # MVVM模式
 
 MVVM模式，`M`即 model，数据模型；`V`即 view，视图；`VM`即 view-model，视图模型。
-<!-- more -->
 ![](https://cdn.jsdelivr.net/gh/Dolri/PicGoBed/img/MVVM模式概念图.png)
 
 **理解**

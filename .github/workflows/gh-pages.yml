@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Build & Deploy
 
 on:
   push:
@@ -8,9 +8,14 @@ on:
       - valaxy
 
 jobs:
-  build:
+  deploy:
     runs-on: ${{ matrix.os }}
-
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     strategy:
       matrix:
         node-version: [16.x]
@@ -19,22 +24,26 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          registry-url: https://registry.npmjs.org/
+          cache: pnpm
 
       - name: 📦 Install Dependencies
-        run: npm i
+        run: pnpm i
 
       - name: 🌌 Build Valaxy Blog
-        run: npm run build
-
+        run: pnpm build
+      - uses: actions/configure-pages@v2
+                - uses: actions/upload-pages-artifact@v1
+                with:
+                  path: ./dist
       - name: 🪤 Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: true
+        id: deployment
+        uses: actions/deploy-pages@v1
