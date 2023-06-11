@@ -2,6 +2,6 @@
 title: 关于站点
 ---
 
-Valaxy + valaxy-theme-yun Demo Site
+Based on Valaxy + valaxy-theme-yun
 
 - Default Theme: [valaxy-theme-yun](https://github.com/YunYouJun/valaxy/blob/main/packages/valaxy-theme-yun/)
