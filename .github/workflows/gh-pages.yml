@@ -41,9 +41,9 @@ jobs:
       - name: 🌌 Build Valaxy Blog
         run: pnpm build
       - uses: actions/configure-pages@v2
-                - uses: actions/upload-pages-artifact@v1
-                with:
-                  path: ./dist
+      - uses: actions/upload-pages-artifact@v1
+        with:
+        path: ./dist
       - name: 🪤 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
