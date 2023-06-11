@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>四宮かぐやの小站</title>
+        <link>https://github.com/Gatsby0108.github.io/</link>
+        <description>A blog based on Valaxy.</description>
+        <lastBuildDate>Sun, 11 Jun 2023 07:53:11 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>四宮かぐやの小站</title>
+            <url>https://cdn.staticaly.com/gh/gatsby0108/idle_bed/master/2023/05/2675bb61adef68462f99f41642dd6a918d.jpg</url>
+            <link>https://github.com/Gatsby0108.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023 © 四宮かぐや</copyright>
+        <atom:link href="https://github.com/Gatsby0108.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[基于Vue3实现网页原生播放器（包含弹幕功能）]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/mediaPlayer</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/mediaPlayer</guid>
+            <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[基于Vue3实现网页原生播放器的弹幕功能，提供一个思路]]></description>
+            <content:encoded><![CDATA[<h1>基于Vue3实现网页原生播放器（包含弹幕功能）</h1>
+<p>在本篇文章中，我们将一起探索一份自定义的视频播放器实现代码。<br>
+这段代码可以用于创建一个简单的视频播放器，具备基本的播放、暂停、进度控制和弹幕功能。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[工具整合]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/toolIntegration</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/toolIntegration</guid>
+            <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[整合了一些编程工具、文档]]></description>
+            <content:encoded><![CDATA[<h1>工具整合</h1>
+<h2>编程工具</h2>
+<h3>官方文档</h3>
+<p><a href="https://www.vuepress.cn/">Vue Press</a></p>
+<p><a href="https://v3.cn.vuejs.org/">Vue.js</a></p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[JavaSE 教程]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/JavaSE教程</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/JavaSE教程</guid>
+            <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>JavaSE 课程总结</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[人工智能导论]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/人工智能导论</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/人工智能导论</guid>
+            <pubDate>Tue, 14 Jun 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>人工智能基础课程笔记总结</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/hello-valaxy</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java多线程]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/Java多线程</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/Java多线程</guid>
+            <pubDate>Fri, 17 Dec 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Java多线程知识总结</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java高阶]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/Java高阶</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/Java高阶</guid>
+            <pubDate>Thu, 16 Dec 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Java高阶课程知识总结</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[33个非常实用的JavaScript一行代码]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/33个非常实用的JavaScript一行代码</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/33个非常实用的JavaScript一行代码</guid>
+            <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、日期处理</h2>
+<h3>1. 检察日期是否有效</h3>
+<p>该方法用于检测给出的日期是否有效：</p>
+<pre><code class="language-javascript">const isDateValid = (...val) =&gt; !Number</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[常用的前端轮子]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/常用的前端轮子</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/常用的前端轮子</guid>
+            <pubDate>Sat, 09 Oct 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>React UI 组件库</h2>
+<ul>
+<li><a href="https://ant.design/">Ant Design</a></li>
+<li>[React Bootstrap](<a href="https://react-bootstrap.git">https://react-bootstrap.git</a></li>
+</ul>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[Android]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/Android</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/Android</guid>
+            <pubDate>Sat, 12 Jun 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Android笔记总结</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[JS设计模式总结笔记]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/JS设计模式总结</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/JS设计模式总结</guid>
+            <pubDate>Sat, 27 Feb 2021 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>JS设计模式总结笔记</h1>
+<h2>开篇：前端工程师的成长论</h2>
+<p>能够决定一个前端工程师的本质的，不是那些瞬息万变的技术点，而是那些<strong>不变的东西</strong>。</p>
+<p>所谓“不变的东西”，就是<strong>驾驭技术的能力</strong>。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[TypeScript笔记]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/TypeScript</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/TypeScript</guid>
+            <pubDate>Thu, 08 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[TypeScript学习记录]]></description>
+            <content:encoded><![CDATA[<h1>TypeScript 学习笔记</h1>
+<p>TypeScript 的类型校验是给程序员看的，在编译后不会存在TS代码。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[《JavaScript高级程序设计》笔记]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/JavaScript高级程序设计</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/JavaScript高级程序设计</guid>
+            <pubDate>Fri, 12 Jun 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>《JavaScript高级程序设计》笔记</h1>
+<h2>第1章  JavaScript简介</h2>
+<ul>
+<li>
+<p>JavaScript诞生于<strong>1995</strong>年</p>
+</li>
+<li>
+<p>一个完整的JavaScript由这三部分组成：</p>
+</li>
+</ul>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[网站]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/网站</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/网站</guid>
+            <pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>个人收藏夹</h1>
+<h2>推荐</h2>
+<ul>
+<li><a href="https://panjiachen.github.io/awesome-bookmarks/">panjiachen</a> by 花裤衩</li>
+<li><a href="https://www.code-nav.cn/">编程导航</a> by 程序员鱼皮</li>
+<li><a href="https://r2coding.com/">编程自学之路</a> by 程序羊</li>
+<li><a href="https://gitee.com/jishupang/web_atlas">前端知识图谱+B站资源整合</a> by 技术胖</li>
+<li><a href="https://shengxinjing.cn/">大圣编程自学网</a> by 大圣</li>
+<li><a href="https://devtool.tech/">开发者武器库</a></li>
+<li><a href="https://www.fly63.com/tool/home.html">工具大全</a></li>
+</ul>
+<p align="center">
+<img src="https://fastly.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg" width="200">
+</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[比typeof运算符更准确的类型判断]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/比typeof运算符更准确的类型判断</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/比typeof运算符更准确的类型判断</guid>
+            <pubDate>Mon, 13 Apr 2020 15:56:54 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>比typeof运算符更准确的类型判断</h1>
+<p>不同数据类型的<code>Object.prototype.toString</code>方法返回值如下。</p>
+<ul>
+<li>数值：返回<code>[object Number]</code>。</li>
+<li>字符串：返</li>
+</ul>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[JS获取和修改url参数]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/JS获取和修改url参数</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/JS获取和修改url参数</guid>
+            <pubDate>Thu, 05 Mar 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>JS获取和修改url参数</h1>
+<h2>获取url参数</h2>
+<pre><code class="language-js">/**
+ * 获取url里的参数
+ * @param arg 参数名
+ * @returns
+ */
+function getUR</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[防抖与节流函数]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/防抖与节流函数</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/防抖与节流函数</guid>
+            <pubDate>Sat, 29 Feb 2020 15:07:47 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>防抖与节流函数</h1>
+<p>防抖和节流的作用都是在高频事件中防止函数被多次调用，是一种性能优化的方案。</p>
+<p>区别在于，防抖函数只会在高频事件结束后n毫秒调用一次函数，节流函数会在高频事件触发过程当中每隔n毫秒调用一次函数。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[将一维数组按指定长度转为二维数组]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/将一维数组按指定长度转为二维数组</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/将一维数组按指定长度转为二维数组</guid>
+            <pubDate>Sun, 23 Feb 2020 13:49:31 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>将一维数组按指定长度转为二维数组</h1>
+<p>将一维数组按指定长度转为二维数组</p>
+<pre><code class="language-js">function pages(arr, len) {
+    const pages = []
+    arr</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[ES5面向对象]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/ES5面向对象</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/ES5面向对象</guid>
+            <pubDate>Sat, 22 Feb 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>ES5面向对象</h1>
+<pre><code class="language-js">//面向对象封装
+function Student(props){ // 构造函数 （构造函数内定于属性。尊从首字母大写的约定）
+  this.name = pro</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[JS随机打乱数组]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/JS随机打乱数组</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/JS随机打乱数组</guid>
+            <pubDate>Sat, 08 Feb 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>JS随机打乱数组</h1>
+<pre><code class="language-js">function shuffle(arr) { // 随机打乱数组
+  let _arr = arr.slice() // 调用数组副本，不改变原数组
+  for</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[MVVM模式]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/Vue/基础/MVVM模式</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/Vue/基础/MVVM模式</guid>
+            <pubDate>Tue, 04 Feb 2020 12:19:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::tip</p>
+<p>说明：本章内容是博主的Vue学习笔记，以<a href="https://cn.vuejs.org/v2/guide/">官方文档</a>为准。</p>
+<p>:::</p>
+<h1>MVVM模式</h1>
+<p>MVVM模式，<code>M</code>即 model，数据模型；<code>V</code>即 view，视图；<code>VM</code>即 view-model，视图模型。</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[多种数组去重性能对比]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/多种数组去重性能对比</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/多种数组去重性能对比</guid>
+            <pubDate>Wed, 25 Dec 2019 14:27:01 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>多种数组去重性能对比</h1>
+<h2>测试模板</h2>
+<pre><code class="language-js">// 创建一个 1 ~ 10w 的数组，Array.from为ES6语法
+let arr1 = Array.from(new Array(1</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[小程序笔记]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/note/小程序</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/note/小程序</guid>
+            <pubDate>Wed, 25 Dec 2019 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>小程序笔记</h1>
+<h2>基础课程部分</h2>
+<h4>微信公众平台</h4>
+<p><a href="https://mp.weixin.qq.com/">https://mp.weixin.qq.com/</a></p>
+<p>注册时可选择类型：订阅号、服务号、小程序、企业微信</p>
+<p>**每个邮箱仅能注册</p>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[ES6面向对象]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/ES6面向对象</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/ES6面向对象</guid>
+            <pubDate>Wed, 25 Dec 2019 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>ES6面向对象</h1>
+<pre><code class="language-js">//面向对象封装
+class Student{ //定义类 (尊从首字母大写的约定)
+    constructor(props){  // 构造函数 （构造函数内</code></pre>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+        <item>
+            <title><![CDATA[new命令原理]]></title>
+            <link>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/new命令原理</link>
+            <guid>https://github.com/Gatsby0108.github.io/posts/front-end/JavaScript/new命令原理</guid>
+            <pubDate>Wed, 25 Dec 2019 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>new命令原理</h1>
+<p>使用new命令时，它后面的函数依次执行下面的步骤：</p>
+<ol>
+<li>创建一个空对象，作为将要返回的实例对象。</li>
+<li>将这个空对象的原型，指向构造函数的prototype属性。</li>
+<li>将这个空对象赋值给函数内部的this关键字。</li>
+<li>开始执行构造函数内部的代码。</li>
+<li>如果构造函数内有返回值且为对象类型，则返回该对象，否则返回上面创建的实例对象。</li>
+</ol>
+]]></content:encoded>
+            <author>i@valaxy.site (四宮かぐや)</author>
+        </item>
+    </channel>
+</rss>
