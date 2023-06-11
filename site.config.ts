@@ -93,6 +93,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
+    type: 'fuse'
   },
 
   sponsor: {  //文章末尾是否展示赞助（打赏信息）
