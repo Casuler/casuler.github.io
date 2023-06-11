@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://github.com/Gatsby0108.github.io',
+  url: 'https://gatsby0108.github.io',
   lang: 'zh-CN',
   title: '四宮かぐやの小站',
   author: {
