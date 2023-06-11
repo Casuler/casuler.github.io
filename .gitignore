@@ -14,5 +14,6 @@ dist-ssr
 node_modules
 .idea/
 *.log
+*.bat
 
 components.d.ts
