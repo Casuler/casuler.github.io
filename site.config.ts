@@ -19,7 +19,7 @@ export default defineSiteConfig({
     // },
     {
       name: 'QQ 群 830157576',
-      link: '',
+      link: 'https://static.itbaima.net/image/welcome/bd41e40476c2be11.jpg',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
