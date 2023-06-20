@@ -18,8 +18,8 @@ export default defineSiteConfig({
     //   color: 'orange',
     // },
     {
-      name: 'QQ 群 759551802',
-      link: 'http://www.m58.link/xJnHh',
+      name: 'QQ 群 830157576',
+      link: '',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
