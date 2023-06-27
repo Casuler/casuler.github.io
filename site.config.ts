@@ -95,6 +95,18 @@ export default defineSiteConfig({
     enable: true,
     type: 'fuse'
   },
+  statistics: {
+    enable: true,
+    readTime: {
+      /**
+       * 阅读速度
+       */
+      speed: {
+        cn: 300,
+        en: 200,
+      }
+    }
+  },
 
   sponsor: {  //文章末尾是否展示赞助（打赏信息）
     enable: false,
