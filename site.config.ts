@@ -95,6 +95,7 @@ export default defineSiteConfig({
     enable: true,
     type: 'fuse'
   },
+
   statistics: {
     enable: true,
     readTime: {
