@@ -96,6 +96,14 @@ export default defineSiteConfig({
     type: 'fuse'
   },
 
+  mediumZoom: {
+    enable: true
+  },
+
+  comment: {
+    enable: true
+  },
+
   statistics: {
     enable: true,
     readTime: {

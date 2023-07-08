@@ -1,6 +1,6 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-
+import { addonWaline } from 'valaxy-addon-waline'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -19,7 +19,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       title: '四宮かぐやの小站',
       cloud: {
-        enable: true,
+        enable: false,
       },
     },
 
@@ -48,4 +48,11 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+
+  addons: [
+    addonWaline({
+      serverURL:'https://waline.itjourney.top',
+      comment: true,
+    }),
+  ]
 })
