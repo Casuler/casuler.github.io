@@ -1,9 +1,9 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://gatsby0108.github.io',
+  url: 'https://itjourney.top',
   lang: 'zh-CN',
-  title: '四宮かぐやの小站',
+  title: 'IT之旅',
   author: {
     name: '四宮かぐや',
     avatar: 'https://cdn.staticaly.com/gh/gatsby0108/idle_bed/master/2023/05/2675bb61adef68462f99f41642dd6a918d.jpg'
