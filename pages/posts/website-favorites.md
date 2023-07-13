@@ -1,5 +1,5 @@
 ---
-title: 网站整合
+title: 网站收藏夹
 author: 四宮かぐや
 date: 2020-04-19
 updated: 2023-06-11
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-# 个人收藏夹
+# 网站收藏夹
 
 ## 推荐
 * [柏码程序员](https://itbaima.net/) by 青空の霞光
@@ -61,7 +61,7 @@ tags:
 
 ## 电子书
 * [高教书苑](https://ebook.hep.com.cn/ebooks/h5/index.html) 高等教育出版社的书籍，包含多种学科。
-<!-- * [前端电子书收集](http://www.yuanchengcheng.vip/books) -->
+* [前端电子书收集](http://www.yuanchengcheng.vip/books) 
 * [SoBooks](https://sobooks.cc/) 免费的电子书资源网站
 
 ## 优秀文章

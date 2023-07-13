@@ -10,11 +10,13 @@ tags:
   - 后端
 ---
 
-Java高阶课程知识总结
-<!-- more -->
-# Java高阶
+---
 
-[[TOC]]
+Java高阶课程知识总结
+
+---
+
+# Java高阶
 
 ------
 
@@ -44,7 +46,7 @@ Java高阶课程知识总结
 
 ​				5.当泛型类型的静态方法中可以使用泛型时，则其他类调用静态方法时都是调用相同的方法（其泛型类型若不明确就会产生矛盾）
 
-*==**PS：**==*Java中的泛型只在编译阶段起作用，在编译中如果正确检验泛型结果后，就会将泛型的相关消息擦出，并在对象进入和打开边界处添加类型检查和类型转换方法。
+> Java中的泛型只在编译阶段起作用，在编译中如果正确检验泛型结果后，就会将泛型的相关消息擦出，并在对象进入和打开边界处添加类型检查和类型转换方法。
 
 ### 泛型数组
 
@@ -93,10 +95,10 @@ Object o[] = new Object[16];	//重新创建一个数组把先前数组内容转�
 
 由数组与链表一同实现；
 
-***==PS:==***==判断
+判断
 
 ```java
-Map map == new HashMap();
+Map map ` new HashMap();
 map.put(1,"Tom");
 map.put(1,"Jerry");				//Key值相同，则覆盖先前的内容
 map.put(2,"KillerQueen");
@@ -197,7 +199,7 @@ public class Demo {
 }
 ```
 
-==**Ps ：**==若在封装时忘记写盘符号，则默认在根目录下
+> 若在封装时忘记写盘符号，则默认在根目录下
 
 ------
 
@@ -205,7 +207,7 @@ public class Demo {
 
 public boolean delete() ：删除文件或文件夹
 
-==**Ps ：**==只能删除空文件夹
+> 只能删除空文件夹
 
 ```java
 import java.io.File;
@@ -238,7 +240,7 @@ public class Demo {
 
 public boolean renameTo(FIle file) ：把文件重命名为指定路径
 
-**==Ps ：==**如果路径相同，就是改名；如果路径不同，就是剪切并改名
+> 如果路径相同，就是改名；如果路径不同，就是剪切并改名
 
 ```java
 import java.io.File;
@@ -476,7 +478,7 @@ public class Demo {
 
 java的 io 是实现输入和输出的基础，可以方便的实现数据的输入和输出操作。在java中把不同的输入/输出源（键盘，文件，网络连接等）抽象表述为“流”(stream)。通过流的形式允许java程序使用相同的方式来访问不同的输入/输出源。stram是从起源（source）到接收的（sink）的有序数据
 
-**==Ps ：==**java把所有的传统的流类型都放到在java.io包下，用于实现输入和输出功能
+> java把所有的传统的流类型都放到在java.io包下，用于实现输入和输出功能
 
 ------
 
@@ -526,7 +528,7 @@ java的 io 是实现输入和输出的基础，可以方便的实现数据的输
 
 - InputStream 和 Reader 是所有**输入流**的基类
 
-- InputStream（典型实现 ：*==FileInputStream==*）
+- InputStream（典型实现 ：*`FileInputStream`*）
 
 ```java
 int read();
@@ -534,7 +536,7 @@ int read(byte[] b);
 int read(byte[] b, int off, int len);
 ```
 
-- Reader（典型实现 ：*==FileReader==*）
+- Reader（典型实现 ：*`FileReader`*）
 
 ```java
 int read();
@@ -542,7 +544,7 @@ int read(char[] c);
 int read(char[] c, int off, int len);
 ```
 
-- 程序中打开的文件 IO 资源不属于内存里的资源，垃圾回收机制无法回收该资源，所以应该是**==显式关闭文件 IO 资源==**
+- 程序中打开的文件 IO 资源不属于内存里的资源，垃圾回收机制无法回收该资源，所以应该是**`显式关闭文件 IO 资源`**
 
 - FileInputStream 从文件系统中的某个文件中获得输入字节。FileInputStream 用于读取非文本数据之类的原始字节流；要读取字符流，需要使用 FileReader
 
@@ -556,7 +558,7 @@ int read(char[] c, int off, int len);
 
 - int read(byte[] b)
 
-从此输入流中将最多 b.length 个字节的数据读入一个 byte 的数组中。如果因为已经到达流末尾而没有可用的字节，则返回值-1；否则==**以整数形式返回实际读取的字节数**==
+从此输入流中将最多 b.length 个字节的数据读入一个 byte 的数组中。如果因为已经到达流末尾而没有可用的字节，则返回值-1；否则`**以整数形式返回实际读取的字节数**`
 
 - int read(byte[] b, int off, int len)
 
@@ -717,9 +719,9 @@ Thread.currentThread().getName()
 
 ## 反射
 
-==反射是框架设计的灵魂==
+`反射是框架设计的灵魂`
 
-==**PS：必须先得到代表的字节码的Class，Class类用于表示.class文件（字节码）**==
+> 必须先得到代表的字节码的Class，Class类用于表示.class文件（字节码）
 
 ------
 
@@ -728,7 +730,7 @@ Thread.currentThread().getName()
 JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法和属性；这种动态获取的信息以及动态调用对象的方法的功能称为java语言的反射机制。
 要想解剖一个类,必须先要获取到该类的字节码文件对象。而解剖使用的就是Class类中的方法，所以先要获取到每一个字节码文件对应的Class类型的对象。
 
-==**反射就是把java类中的各种成分映射成一个个的Java对象**==
+`反射就是把java类中的各种成分映射成一个个的Java对象`
 
 eg：
 
@@ -791,12 +793,12 @@ public class Fanshe {
 
 		//第二种方式获取Class对象
 		Class stuClass2 = Student.class;
-		System.out.println(stuClass == stuClass2);//判断第一种方式获取的Class对象和第二种方式获取的是否是同一个
+		System.out.println(stuClass ` stuClass2);//判断第一种方式获取的Class对象和第二种方式获取的是否是同一个
 
 		//第三种方式获取Class对象
 		try {
 			Class stuClass3 = Class.forName("fanshe.Student");//注意此字符串必须是真实路径，就是带包名的类路径，包名.类名
-			System.out.println(stuClass3 == stuClass2);//判断三种方式是否获取的是同一个Class对象
+			System.out.println(stuClass3 ` stuClass2);//判断三种方式是否获取的是同一个Class对象
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}

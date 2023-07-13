@@ -11,8 +11,11 @@ tag:
   - TypeScript
 ---
 
+---
+
 TypeScript学习笔记
-<!-- more -->
+
+---
 
 # TypeScript 学习笔记
 
