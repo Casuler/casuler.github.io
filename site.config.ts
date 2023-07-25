@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://itjourney.top',
+  url: 'https://blog.itjourney.top',
   lang: 'zh-CN',
   title: 'IT之旅',
   author: {
