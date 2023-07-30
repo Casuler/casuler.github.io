@@ -1,14 +1,14 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://blog.itjourney.top',
+  url: 'https://www.itjourney.top',
   lang: 'zh-CN',
   title: 'IT之旅',
   author: {
-    name: '四宮かぐや',
-    avatar: 'https://cdn.staticaly.com/gh/gatsby0108/idle_bed/master/2023/05/2675bb61adef68462f99f41642dd6a918d.jpg'
+    name: 'Casuler',
+    avatar: 'https://cdn.staticaly.com/gh/casuler/idle_bed/master/2023/05/2675bb61adef68462f99f41642dd6a918d.jpg'
   },
-  favicon:'https://cdn.staticaly.com/gh/gatsby0108/idle_bed/master/2023/05/26e943c9423e7447608b677ba1fc302002.ico',
+  favicon:'https://cdn.staticaly.com/gh/casuler/idle_bed/master/2023/05/26e943c9423e7447608b677ba1fc302002.ico',
   description: 'A blog based on Valaxy.',
   social: [
     // {
@@ -25,58 +25,58 @@ export default defineSiteConfig({
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/Gatsby0108',
+      link: 'https://github.com/Casuler',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
-    // {
-    //   name: '微博',
-    //   link: 'https://weibo.com/',
-    //   icon: 'i-ri-weibo-line',
-    //   color: '#E6162D',
-    // },
-    // {
-    //   name: '豆瓣',
-    //   link: 'https://www.douban.com/people/',
-    //   icon: 'i-ri-douban-line',
-    //   color: '#007722',
-    // },
-    // {
-    //   name: '网易云音乐',
-    //   link: 'https://music.163.com/#/user/',
-    //   icon: 'i-ri-netease-cloud-music-line',
-    //   color: '#C20C0C',
-    // },
-    // {
-    //   name: '知乎',
-    //   link: 'https://www.zhihu.com/people/',
-    //   icon: 'i-ri-zhihu-line',
-    //   color: '#0084FF',
-    // },
-    // {
-    //   name: '哔哩哔哩',
-    //   link: 'https://space.bilibili.com/',
-    //   icon: 'i-ri-bilibili-line',
-    //   color: '#FF8EB3',
-    // },
-    // {
-    //   name: '微信公众号',
-    //   link: '',
-    //   icon: 'i-ri-wechat-2-line',
-    //   color: '#1AAD19',
-    // },
-    // {
-    //   name: 'Twitter',
-    //   link: 'https://twitter.com/',
-    //   icon: 'i-ri-twitter-line',
-    //   color: '#1da1f2',
-    // },
+    /*{
+      name: '微博',
+      link: 'https://weibo.com/',
+      icon: 'i-ri-weibo-line',
+      color: '#E6162D',
+    },
+    {
+      name: '豆瓣',
+      link: 'https://www.douban.com/people/',
+      icon: 'i-ri-douban-line',
+      color: '#007722',
+    },
+    {
+      name: '网易云音乐',
+      link: 'https://music.163.com/#/user/',
+      icon: 'i-ri-netease-cloud-music-line',
+      color: '#C20C0C',
+    },
+    {
+      name: '知乎',
+      link: 'https://www.zhihu.com/people/',
+      icon: 'i-ri-zhihu-line',
+      color: '#0084FF',
+    },
+    {
+      name: '哔哩哔哩',
+      link: 'https://space.bilibili.com/',
+      icon: 'i-ri-bilibili-line',
+      color: '#FF8EB3',
+    },
+    {
+      name: '微信公众号',
+      link: '',
+      icon: 'i-ri-wechat-2-line',
+      color: '#1AAD19',
+    },
+    {
+      name: 'Twitter',
+      link: 'https://twitter.com/',
+      icon: 'i-ri-twitter-line',
+      color: '#1da1f2',
+    },
     {
       name: 'Telegram Channel',
       link: 'https://t.me/itbaima',
       icon: 'i-ri-telegram-line',
       color: '#0088CC',
-    },
+    },*/
     {
       name: 'E-Mail',
       link: 'mailto:gatsby-official@outlook.com',
